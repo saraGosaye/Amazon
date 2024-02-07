@@ -1,0 +1,220 @@
+[debug] [2024-01-24T05:04:19.863Z] ----------------------------------------------------------------------
+[debug] [2024-01-24T05:04:19.866Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sarin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-01-24T05:04:19.866Z] CLI Version:   13.0.3
+[debug] [2024-01-24T05:04:19.866Z] Platform:      win32
+[debug] [2024-01-24T05:04:19.866Z] Node Version:  v20.11.0
+[debug] [2024-01-24T05:04:19.866Z] Time:          Tue Jan 23 2024 23:04:19 GMT-0600 (Central Standard Time)
+[debug] [2024-01-24T05:04:19.866Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-24T05:04:19.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-24T05:04:19.968Z] > authorizing via signed-in user (sarinago7@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-01-24T05:04:19.980Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-24T05:04:19.980Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-01-24T05:04:19.987Z] [hub] writing locator at C:\Users\sarin\AppData\Local\Temp\hub-clone-95771.json
+[debug] [2024-01-24T05:04:20.002Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-24T05:04:20.002Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-24T05:04:20.002Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-01-24T05:04:20.006Z] defaultcredentials: writing to file C:\Users\sarin\AppData\Roaming\firebase\sarinago7_gmail_com_application_default_credentials.json
+[debug] [2024-01-24T05:04:20.008Z] Setting GAC to C:\Users\sarin\AppData\Roaming\firebase\sarinago7_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\sarin\\AppData\\Roaming\\firebase\\sarinago7_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-24T05:04:20.009Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-95771/adminSdkConfig [none]
+[debug] [2024-01-24T05:04:20.276Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-95771/adminSdkConfig 200
+[debug] [2024-01-24T05:04:20.277Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-95771/adminSdkConfig {"projectId":"clone-95771","storageBucket":"clone-95771.appspot.com"}
+[debug] [2024-01-24T05:04:20.287Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-24T05:04:20.288Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-24T05:04:20.288Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\sarin\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\sarin\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-01-24T05:04:20.400Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-01-24T05:04:20.401Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\sarin\\OneDrive\\Desktop\\Evangadi\\Projects\\Amazon\\amazon_clone\\functions\" for Cloud Functions..."}}
+[debug] [2024-01-24T05:04:20.575Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-01-24T05:04:21.964Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T05:04:21.964Z] Building nodejs source
+[debug] [2024-01-24T05:04:21.964Z] Failed to find version of module node: reached end of search path C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-01-24T05:04:21.966Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T05:04:21.973Z] Found firebase-functions binary at 'C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8855
+
+[debug] [2024-01-24T05:04:22.476Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: sk_test_51NZeVpHIZk2SKREpGC7AsQ4BdaUUq6Spd7vwcfVSrF72bfmsC2AGVYgh010NBxXilWBRrqRpRr1pWgBuGu2qWGfT00t09kgV5z is not defined
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-01-24T05:19:23.967Z] File C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sarin\\OneDrive\\Desktop\\Evangadi\\Projects\\Amazon\\amazon_clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-24T05:19:24.977Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-01-24T05:19:26.276Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T05:19:26.276Z] Building nodejs source
+[debug] [2024-01-24T05:19:26.276Z] Failed to find version of module node: reached end of search path C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-01-24T05:19:26.277Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T05:19:26.283Z] Found firebase-functions binary at 'C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8500
+
+[debug] [2024-01-24T05:19:26.812Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: sk_test_51NZeVpHIZk2SKREpGC7AsQ4BdaUUq6Spd7vwcfVSrF72bfmsC2AGVYgh010NBxXilWBRrqRpRr1pWgBuGu2qWGfT00t09kgV5z is not defined
+[debug] [2024-01-24T05:19:28.128Z] File C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sarin\\OneDrive\\Desktop\\Evangadi\\Projects\\Amazon\\amazon_clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-01-24T05:19:29.144Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-01-24T05:19:30.588Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T05:19:30.588Z] Building nodejs source
+[debug] [2024-01-24T05:19:30.588Z] Failed to find version of module node: reached end of search path C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-01-24T05:19:30.589Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T05:19:30.597Z] Found firebase-functions binary at 'C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2024-01-24T05:19:30.612Z] File C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\sarin\\OneDrive\\Desktop\\Evangadi\\Projects\\Amazon\\amazon_clone\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8922
+
+[debug] [2024-01-24T05:19:31.201Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: sk_test_51NZeVpHIZk2SKREpGC7AsQ4BdaUUq6Spd7vwcfVSrF72bfmsC2AGVYgh010NBxXilWBRrqRpRr1pWgBuGu2qWGfT00t09kgV5z is not defined
+[debug] [2024-01-24T05:19:31.620Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-01-24T05:19:32.897Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-24T05:19:32.897Z] Building nodejs source
+[debug] [2024-01-24T05:19:32.897Z] Failed to find version of module node: reached end of search path C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-01-24T05:19:32.898Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-24T05:19:32.903Z] Found firebase-functions binary at 'C:\Users\sarin\OneDrive\Desktop\Evangadi\Projects\Amazon\amazon_clone\functions\node_modules\.bin\firebase-functions'
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] Serving at port 8341
+
+[debug] [2024-01-24T05:19:33.571Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: sk_test_51NZeVpHIZk2SKREpGC7AsQ4BdaUUq6Spd7vwcfVSrF72bfmsC2AGVYgh010NBxXilWBRrqRpRr1pWgBuGu2qWGfT00t09kgV5z is not defined
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-01-24T05:34:16.382Z] Received signal SIGHUP 1
